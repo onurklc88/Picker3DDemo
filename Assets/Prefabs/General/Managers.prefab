@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7422677372820093125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7422677372820093114}
+  - component: {fileID: 7422677372820093115}
+  - component: {fileID: 7422677372820093113}
+  - component: {fileID: 7422677372820093112}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7422677372820093114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422677372820093125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7422677372820093115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422677372820093125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036c6acae4854024fb6f55eee449bf71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _successUI: {fileID: 0}
+  _successTexts:
+  - Level Fail
+  - Good Job
+  - Super!
+  _levelFinishUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  _indicatorText:
+  - {fileID: 0}
+  - {fileID: 0}
+  _indicatorImage:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &7422677372820093113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422677372820093125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e420e1572911a49bd707a41522e34a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelList:
+  - {fileID: 11400000, guid: 7d70579246d75534c908453014ab6005, type: 2}
+  - {fileID: 11400000, guid: 4529cab8d6ec427418dd4a6ad5f85e6c, type: 2}
+  - {fileID: 11400000, guid: 937b005ac1a50c54096644c8a002f366, type: 2}
+  - {fileID: 11400000, guid: 4924d913163bd894f93632744e26c4e7, type: 2}
+  - {fileID: 11400000, guid: 130aaa4e562f84248ad86b59de105f27, type: 2}
+  - {fileID: 11400000, guid: 6a5f1a7b41bcb3645bb6774838e24e6f, type: 2}
+  - {fileID: 11400000, guid: 8b7ebc9eae5fff9489d5f378743f95b1, type: 2}
+  - {fileID: 11400000, guid: 433de97465c06db41a7aeb0c43d65313, type: 2}
+  - {fileID: 11400000, guid: 82bc6762db289bc4ba72a172bd2fa343, type: 2}
+  - {fileID: 11400000, guid: f09cafd040bba344bbcf61e47e7f6f01, type: 2}
+--- !u!114 &7422677372820093112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422677372820093125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09f8b5e664c79943a41c7716ad675bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mapList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

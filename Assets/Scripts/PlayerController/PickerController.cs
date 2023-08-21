@@ -48,13 +48,11 @@ public class PickerController : MonoBehaviour, ILevelFlow
         {
             case GameStates.GamePhase.LevelSetup:
                 _levelfinish = false;
-                /*
+               
                 transform.DOMove(_mapManager.GetStartPositon(), 1f).OnUpdate(() =>
                 {
                     gameObject.layer = 11;
                 }); ;
-                */
-                transform.position = _mapManager.GetStartPositon();
                 break;
         }
 
