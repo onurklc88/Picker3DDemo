@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaeaf0e0b725baf469b6616899affc8c, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  CountOfExtraObjects: 10
+  LevelParts:
+  - Name: First Part Of Level
+    TotalObjectCount: 10
+    CollectibleShape: 2
+  - Name: Second Part Of Level
+    TotalObjectCount: 15
+    CollectibleShape: 2
+  - Name: Third Part Of Level
+    TotalObjectCount: 20
+    CollectibleShape: 2

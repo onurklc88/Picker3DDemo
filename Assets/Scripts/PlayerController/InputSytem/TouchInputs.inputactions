@@ -1,0 +1,33 @@
+{
+    "name": "TouchInputs",
+    "maps": [
+        {
+            "name": "PlayerActions",
+            "id": "bb046a4e-d167-457c-ba2c-8e113d6d65ea",
+            "actions": [
+                {
+                    "name": "TouchPress",
+                    "type": "Button",
+                    "id": "78e57d44-e9ac-485b-8939-8e9e6dc24c1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9344aa5d-c3a3-4806-81f1-d56f80deb4f2",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
